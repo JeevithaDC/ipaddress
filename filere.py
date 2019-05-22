@@ -5,7 +5,6 @@ import re
 line=intput("enter the input in which we have to find pattern")
 pat= r"\b((?:1?[0-9]{1,2}|2[0-4][0-9]|25[0-5])\.\b(?:1?[0-9]{1,2}|2[0-4][0-9]|25[0-5])\.\b(?:1?[0-9]{1,2}|2[0-4][0-9]|25[0-5])\.\b(?:1?[0-9]{1,2}|2[0-4][0-9]|25[0-5]))\b"
 result=re.findall(pat,line)
-print result
 
 
 
