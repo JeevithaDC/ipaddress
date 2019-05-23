@@ -14,7 +14,7 @@ class circle:
 	def __str__(self):
 		return 'circle(xaxis={0},yaxis={1},radius={2})'.format(self.xaxis,self.yaxis,self.radius)
 	
-	def area(self):
+	def arewwaijkj(self):
 		''' finding area of circle'''
 		pi=3.14159
 		self.a= pi*self.radius**2
