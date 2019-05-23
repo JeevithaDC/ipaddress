@@ -1,3 +1,8 @@
+"""this program is for finding area, parimeater, move, scale  
+	of the circle.
+	and addition of circles and checking wether it is equal or not 
+""" 
+
 class circle:
 	count=0
 	def __init__(self,x=0,y=0,r=0):
