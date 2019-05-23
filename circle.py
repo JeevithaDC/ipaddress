@@ -15,14 +15,17 @@ class circle:
 		return 'circle(xaxis={0},yaxis={1},radius={2})'.format(self.xaxis,self.yaxis,self.radius)
 	
 	def area(self):
+		''' finding area of circle'''
 		pi=3.14159
 		self.a= pi*self.radius**2
 		return self.a	
 	
 	def primeater(self):
+		''' primeter of circle'''
 		return 2*self.a
 
 	def move(self,xaxis=0,yaxis=0):
+		'''moving circle'''
 		if self.xaxis+xaxis>0:
 			self.xaxis=self.xaxis+xaxis
 			
