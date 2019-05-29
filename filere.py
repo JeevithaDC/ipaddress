@@ -1,3 +1,7 @@
+"""
+This program is to find a ipaddress in given string
+"""
+
 import re 
 # s=open("filere.txt",'r')
 # line=s.read()
