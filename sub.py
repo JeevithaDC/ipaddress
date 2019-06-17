@@ -1,4 +1,4 @@
-a=10
-b=20
-c=a-b
+r=10
+t=20
+c=r-t
 print c
