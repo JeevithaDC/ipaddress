@@ -83,5 +83,6 @@ else:
 print "-------------------------------"
 c=circle.getcount()
 print "count :", c
+print "hi"
 
 
