@@ -4,6 +4,7 @@
 """ 
 
 class circle:
+	""" defining circle """
 	count=0
 	def __init__(self,x=0,y=0,r=0):
 		self.xaxis=x
